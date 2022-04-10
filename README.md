@@ -1,7 +1,7 @@
 This is Roi Mark Gamba and I would like to thank you again for considering my application!
 I have uploaded the file on GITHUB as instructed.
 
-Please make sure to follow the directory name which is: BizMates-Weatherapp-1
+Please make sure to follow the directory name which is: BizMates-Weatherapp
 If you wish to have you own directory name and domain: Please modify config.php
 
 I would like to orient you with my weather app.
