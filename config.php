@@ -8,7 +8,7 @@
 
     // INITIAL CONFIG
     define("BRAND_NAME", "Bizmates Weather App");
-    define("BASE_URL", "{$protocol}{$_SERVER['SERVER_NAME']}/BizMates-Weatherapp-1/");
+    define("BASE_URL", "{$protocol}{$_SERVER['SERVER_NAME']}/BizMates-Weatherapp/");
     
 
     // RESOURSE DIRECTORY
