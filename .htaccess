@@ -2,3 +2,13 @@ RewriteEngine ON
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^/]*)/([^/]*)/?$ index.php?page=$1&data=$2 [L]
+
+# Sec Headers
+<IfModule mod_headers.c>
+	Header set X-XSS-Protection "1; mode=block"
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
+    Header set Referrer-Policy "same-origin"
+    Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
+</IfModule>

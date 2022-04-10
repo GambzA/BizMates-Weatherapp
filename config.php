@@ -3,9 +3,12 @@
     date_default_timezone_set('Asia/Manila');
     header('Content-Type: text/html; charset=utf-8');
 
+    $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === 0 ? 'https://' : 'http://';
+
+
     // INITIAL CONFIG
     define("BRAND_NAME", "Bizmates Weather App");
-    define("BASE_URL", "http://localhost/bizmates-weatherapp/");
+    define("BASE_URL", "{$protocol}{$_SERVER['SERVER_NAME']}/BizMates-Weatherapp-1/");
     
 
     // RESOURSE DIRECTORY

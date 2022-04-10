@@ -12,7 +12,7 @@
         private function dateTimeToGet($date)
         {
             $currentTime = time();
-            $weatherTimeTables = array('00:00:00','03:00:00','06:00:00','09:00:00','12:00:00','15:00:00','18:00:00','21:00:00');
+            $weatherTimeTables = array('00:00:00','03:00:00','06:00:00','09:00:00','12:00:00','15:00:00','18:00:00','21:00:00','24:00:00');
 
             $time = $weatherTimeTables[0];
 
