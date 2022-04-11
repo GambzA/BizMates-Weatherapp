@@ -90,6 +90,8 @@ class hddcache extends apiconnector
             $this->refreshCache($jsonFileName, $cityData);
         endif;
 
+        
+
         return true;
     }
 }

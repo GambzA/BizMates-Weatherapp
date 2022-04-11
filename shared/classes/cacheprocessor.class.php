@@ -12,6 +12,12 @@
         private function dateTimeToGet($date)
         {
             $currentTime = time();
+
+            // IF DATE IS GREATER THAN TODAY GET PEAK HOUR TIME
+            if(strtotime(date("Y-m-d") > strtotime($date))):
+                $currentTime = strtotime('00:00:00');
+            endif;
+            
             $weatherTimeTables = array('00:00:00','03:00:00','06:00:00','09:00:00','12:00:00','15:00:00','18:00:00','21:00:00','24:00:00');
 
             $time = $weatherTimeTables[0];

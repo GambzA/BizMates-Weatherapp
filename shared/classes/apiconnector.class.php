@@ -42,7 +42,7 @@ class apiconnector
 
     public function getCurrentWeather($long, $lat)
     {
-        $response = $this->guzzle->request('GET', 'api.openweathermap.org/data/2.5/forecast?units=metric&lat=' . $lat . '&lon=' . $long . '&appid=' . OPENWEATHER_API_KEY, [
+        $response = $this->guzzle->request('GET', 'api.openweathermap.org/data/2.5/forecast?cnt=55&units=metric&lat=' . $lat . '&lon=' . $long . '&appid=' . OPENWEATHER_API_KEY, [
             'headers' => [
                 'Accept' => 'application/json'
             ]
