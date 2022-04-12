@@ -5,26 +5,26 @@ Please make sure to follow the directory name which is: BizMates-Weatherapp
 If you wish to have you own directory name and domain: Please modify config.php
 
 Installation Guide:
-1. Compatible Operating Systems: Windows, macOS, or Linux
-2. Please install or have the following Apache Local Server: XAMPP v3.3.0 or greater WITH PHP 8.0.0: 
-   Downnload Link: https://www.apachefriends.org/index.html
+1. Compatible Operating Systems: Windows, macOS, or Linux  
+2. Please install or have the following Apache Local Server: XAMPP v3.3.0 or greater WITH PHP 8.0.0:   
+   Downnload Link: https://www.apachefriends.org/index.html  
+  
+   2.1. Please follow these guides on how to install and setup xampp:  
+        2.1.1. https://www.ionos.com/digitalguide/server/tools/xampp-tutorial-create-your-own-local-test-server/  
+        2.1.2. https://www.youtube.com/watch?v=N6ENnaRotmo  
 
-   2.1. Please follow these guides on how to install and setup xampp: 
-        2.1.1. https://www.ionos.com/digitalguide/server/tools/xampp-tutorial-create-your-own-local-test-server/
-        2.1.2. https://www.youtube.com/watch?v=N6ENnaRotmo
+3. Once installation and setup is complete. Please make sure to have this directory name under htdocs folder: BizMates-Weatherapp  
+    3.1. Please see following screenshot guides on how the file structure should look like:  
+        Step 1: https://prnt.sc/NGdiVGQB-sQz  
+        Step 2: https://prnt.sc/DasXmq-bjjLk  
+        Step 3: https://prnt.sc/aDh56Dilf0Vr  
 
-3. Once installation and setup is complete. Please make sure to have this directory name under htdocs folder: BizMates-Weatherapp
-    3.1. Please see following screenshot guides on how the file structure should look like:
-        Step 1: https://prnt.sc/NGdiVGQB-sQz
-        Step 2: https://prnt.sc/DasXmq-bjjLk
-        Step 3: https://prnt.sc/aDh56Dilf0Vr
-
-4. Once that is done. The weather app should be available by visiting http://localhost/BizMates-Weatherapp/
-
-
-
+4. Once that is done. The weather app should be available by visiting http://localhost/BizMates-Weatherapp/  
+  
+  
+  
 The next section will orient the features of the system:
-
+  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The app has a simple and straightforward UI/UX design for easier navigation 
 especially when a tourist would immediately like to check on a place and things that they can do and go to
